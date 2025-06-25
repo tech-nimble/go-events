@@ -3,7 +3,7 @@ module github.com/tech-nimble/go-events
 go 1.18
 
 require (
-	github.com/tech-nimble/go-tools v1.0.0
+	github.com/tech-nimble/go-tools v0.0.1
 	github.com/confluentinc/confluent-kafka-go v1.9.2
 	github.com/google/uuid v1.6.0
 	github.com/jackc/pgtype v1.14.3
@@ -12,7 +12,7 @@ require (
 )
 
 require (
-	github.com/tech-nimble/go-i18n v0.0.13 // indirect
+	github.com/tech-nimble/go-i18n v0.0.1 // indirect
 	github.com/Arrim/jaeger-gin v0.0.2 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
