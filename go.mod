@@ -8,7 +8,7 @@ require (
 	github.com/jackc/pgtype v1.14.3
 	github.com/rabbitmq/amqp091-go v1.10.0
 	github.com/rs/zerolog v1.33.0
-	github.com/tech-nimble/go-tools v0.0.1
+	github.com/tech-nimble/go-tools v0.0.2
 )
 
 require (

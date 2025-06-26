@@ -382,8 +382,8 @@ github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsT
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
 github.com/tech-nimble/go-i18n v0.0.1 h1:JEJuqexEXpAFUoX/i51+MP7J3A8QHrgdLvXqcKv96Wg=
 github.com/tech-nimble/go-i18n v0.0.1/go.mod h1:MRDymZ7S9Qe/TzSDuyrwb/m4gcPE87FTp1B0954ktA0=
-github.com/tech-nimble/go-tools v0.0.1 h1:TAv8RIl+GtSyBOYDv6QWQGCzXJZsGBXwQQ3OTrdkrtk=
-github.com/tech-nimble/go-tools v0.0.1/go.mod h1:dnjawamH21goaex/MHjETcA0KEJp8qsmmqG1S2VMaN4=
+github.com/tech-nimble/go-tools v0.0.2 h1:VNdmRTGeYUhNC7CnFLyVy5R52aGNeZ4Z9lcPU0w7YIw=
+github.com/tech-nimble/go-tools v0.0.2/go.mod h1:IsZVHqu61Dl1ATyv61LSuX9iDlqPrJcPWbQBZ6/Ahv8=
 github.com/twitchyliquid64/golang-asm v0.15.1 h1:SU5vSMR7hnwNxj24w34ZyCi/FmDZTkS4MhqMhdFk5YI=
 github.com/twitchyliquid64/golang-asm v0.15.1/go.mod h1:a1lVb/DtPvCB8fslRZhAngC2+aY1QWCk3Cedj/Gdt08=
 github.com/ugorji/go v1.1.4/go.mod h1:uQMGLiO92mf5W77hV/PUCpI3pbzQx3CRekS0kk+RGrc=
