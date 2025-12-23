@@ -1,6 +1,6 @@
 module github.com/tech-nimble/go-events
 
-go 1.18
+go 1.24
 
 require (
 	github.com/confluentinc/confluent-kafka-go v1.9.2
