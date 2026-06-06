@@ -1,0 +1,47 @@
+version: "2"
+
+run:
+  timeout: 5m
+
+linters:
+  enable:
+    - errcheck
+    - govet
+    - ineffassign
+    - staticcheck
+    - unused
+    - revive
+    - misspell
+    - gocritic
+    - bodyclose
+    - nilerr
+    - unconvert
+  settings:
+    misspell:
+      locale: US
+    gocritic:
+      enabled-tags:
+        - performance
+        - style
+      disabled-checks:
+        # amqp.Delivery is a 296-byte value type delivered by value by the amqp
+        # library and is part of the Router interface signature; passing it by
+        # pointer would break the API and fight the library convention.
+        - hugeParam
+  exclusions:
+    rules:
+      - path: _test\.go
+        linters:
+          - errcheck
+          - gocritic
+          - revive
+      # Legacy package: a doc comment on every exported identifier would only add
+      # redundant "what" comments, which the project style discourages.
+      - linters:
+          - revive
+        text: "should have comment|should have a package comment|comment on exported"
+
+formatters:
+  enable:
+    - gofmt
+    - goimports
